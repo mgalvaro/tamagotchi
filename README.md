@@ -55,10 +55,12 @@ streamlit run app.py
 
 You’ll see the app open in your browser at http://localhost:8501
 
-## 🚀 How to Run in Streamlit Cloud
+## 🚀 Run it in Streamlit Cloud
 https://tamagotchi-amg.streamlit.app/
 
 ## 🧱 Project Structure
+
+```bash
 tamagotchi/
 ├── app.py                        # Main Streamlit app
 ├── config.py                    # Page config (title, layout, favicon, etc.)
@@ -77,4 +79,4 @@ tamagotchi/
 │   ├── __init__.py
 │   ├── tamagotchi.py            # The Tamagotchi class
 │   └── functions.py             # Helper functions: menu, load, etc.
-
+```
